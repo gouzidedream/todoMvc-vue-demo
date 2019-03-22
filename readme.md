@@ -1,19 +1,10 @@
-# TodoMVC App Template
+#		Vue 实现 : 
 
-> Template used for creating [TodoMVC](http://todomvc.com) apps
++  实现基础的功能 : 
 
-![](https://github.com/tastejs/todomvc-app-css/raw/master/screenshot.png)
+  + 添加 / 删除 / 底部隐藏 / 完成数的统计 / 清除完成项 / 本地存储 / 修改
+  + 拓展了几个小功能 : 
+    + 编辑 功能增加 判断 ,当修改值为空时, 则返回修改之前的值
+    + 添加项进行判断 ,如果已经添加 则将已有项提到第一项
 
-
-## Getting started
-
-- Read the [Application Specification](https://github.com/tastejs/todomvc/blob/master/app-spec.md) before touching the template.
-
-- Delete this file and rename `app-readme.md` to `readme.md` and fill it out.
-
-- Clone this repo and install the dependencies with [npm](https://npmjs.com) by running: `npm install`.
-
-
-## License
-
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" rel="dct:type">work</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://sindresorhus.com" property="cc:attributionName" rel="cc:attributionURL">TasteJS</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/deed.en_US">Creative Commons Attribution 4.0 International License</a>.
+  一个小demo玩玩
